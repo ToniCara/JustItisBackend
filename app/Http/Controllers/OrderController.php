@@ -12,11 +12,7 @@ use Illuminate\Support\Facades\DB;
 class OrderController extends Controller
 {
 
-    private function getIngredient($id)
-    {
-        $ingredient = Ingredient::find($id);
-        return $ingredient;
-    }
+   
 
     public function createOrder(Request $request){
         $token = $request->header('token');
