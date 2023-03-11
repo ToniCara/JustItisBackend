@@ -13,6 +13,8 @@ class Completed_order extends Model
         'id_ordineComplessivo',
         'id_dettaglioOrdine',
         'id_utente',
+        'lista',
+        'stato',
         'prezzo_totale'
     ];
 }

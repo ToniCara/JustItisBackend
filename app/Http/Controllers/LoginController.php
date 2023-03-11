@@ -34,6 +34,7 @@ class LoginController extends Controller
                     'cognome' => explode(' ', $user->name)[1],
                     'email' => $user->email,
                     'bilancio' => 0,
+                    'classe' => 'null',
                     'google_id'=> $user->id,
                     'role' => 'customer',
                 ]);

@@ -22,6 +22,7 @@ class User extends Authenticatable
         'nome',
         'cognome',
         'email',
+        'classe',
         'bilancio',
         'google_id',
         'role',
