@@ -15,7 +15,7 @@ class Ingredient extends Model
         'descrizione',
         'urlimmagine',
         'quantita',
-        'tipoProdoto',
+        'tipoProdotto',
         'prezzo'
     ];
 }
